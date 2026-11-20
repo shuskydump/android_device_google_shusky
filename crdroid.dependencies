@@ -8,10 +8,6 @@
     "target_path": "device/google/zuma"
   },
   {
-    "repository": "crdroidandroid/android_vendor_bcr",
-    "target_path": "vendor/bcr"
-  },
-  {
     "repository": "crdroidandroid/proprietary_vendor_google_faceunlock",
     "target_path": "vendor/google/faceunlock",
     "remote": "crdroid-gitlab"
