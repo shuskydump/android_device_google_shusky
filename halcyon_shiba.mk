@@ -1,11 +1,14 @@
 #
 # SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-FileCopyrightText: The Calyx Institute
+# SPDX-FileCopyrightText: The Halcyon Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Inherit some common stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/halcyon/config/common.mk)
+
+TARGET_IS_PIXEL_TENSOR := true
 
 # Inherit device configuration
 DEVICE_CODENAME := shiba
@@ -14,7 +17,9 @@ VENDOR_PATH := vendor/google/shiba
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Pixel 8
+PRODUCT_NAME := halcyon_$(DEVICE_CODENAME)
 PRODUCT_SYSTEM_BRAND := google
 PRODUCT_SYSTEM_MANUFACTURER := Google
 PRODUCT_SYSTEM_NAME := generic_system_google
