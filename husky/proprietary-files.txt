@@ -61,7 +61,7 @@ product/priv-app/DCMO/DCMO.apk
 product/priv-app/DMService/DMService.apk
 product/priv-app/DiagMon/DiagMon.apk
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
-product/priv-app/TetheringEntitlement/TetheringEntitlement.apk:product/priv-app/TetheringEntitlementHusky/TetheringEntitlementHusky.apk
+product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
 
 # Temperature sensor
 product/etc/sysconfig/firproximity.xml
