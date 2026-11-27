@@ -5,6 +5,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Build configuration
+WITH_GMS := true
+BUILD_KEYS := release-keys
+BUILD_VERSION_TAGS := release-keys
+
 # Inherit some common stuff
 $(call inherit-product, vendor/halcyon/config/common.mk)
 
